@@ -1,0 +1,33 @@
+---
+events_metrics:
+- aws_namespace: AWS/Events
+  aws_metric_name: Invocations
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: MatchedEvents
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: TriggeredRules
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+
+events_metrics:
+- aws_namespace: AWS/Events
+  aws_metric_name: Invocations
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: MatchedEvents
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: TriggeredRules
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+

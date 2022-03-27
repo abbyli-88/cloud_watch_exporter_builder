@@ -1,0 +1,23 @@
+---
+snsredshiftna_metrics:
+- aws_namespace: AWS/SNS
+  aws_metric_name: NumberOfMessagesPublished
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+
+- aws_namespace: AWS/SNS
+  aws_metric_name: PublishSize
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+
+snsredshiftna_metrics:
+- aws_namespace: AWS/SNS
+  aws_metric_name: NumberOfMessagesPublished
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+
+- aws_namespace: AWS/SNS
+  aws_metric_name: PublishSize
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+

@@ -1,0 +1,3798 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-yc74qniobdpfunfwo5yqdotlgy"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "DOT-restart-test-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-ls74qv6fdpsczo7xnd5a3xb4ia"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "dot-no-creds-stream-test-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-004"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-gk743repcoeavvammqpta6awrm"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "rapid-deployment-02"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-gs743raxusz6fkpegfkzis2tga"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "rapid-deployment-deployment-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-us743ubkiamvfbq5ofu5hkkqee"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "003-ehuiehwfewf"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-7k743t6nc4xgifikiegw2occvu"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "001-gfdwuyewfgueywgeu"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "ApplicationErrors",
+            "Dimensions": [
+                {
+                    "Name": "ApplicationInstanceId",
+                    "Value": "applicationInstance-zc743t6zw227fawuz53c7wxrza"
+                },
+                {
+                    "Name": "ApplicationInstanceName",
+                    "Value": "002-hdwehiuewhewiudw"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-vc72xodx2igxz3ir3gfic2i6lm"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-003"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-006"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu1"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-001"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/data"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/enc_mmcblk0p36"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "ext4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu3"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu5"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-002"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu7"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-006"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-p272xrfmlud6on3mlwunvaedva"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-005"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu0"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu6"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "disk_total",
+            "Dimensions": [
+                {
+                    "Name": "path",
+                    "Value": "/"
+                },
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "device",
+                    "Value": "mapper/ver_mmcblk0p1"
+                },
+                {
+                    "Name": "fstype",
+                    "Value": "squashfs"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu-total"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_total",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "mem_used",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_idle",
+            "Dimensions": [
+                {
+                    "Name": "device_name",
+                    "Value": "OR-DOT-PILOT-004"
+                },
+                {
+                    "Name": "device_id",
+                    "Value": "device-dc74qdmccjvdj6jfvikzacnoyq"
+                },
+                {
+                    "Name": "cpu",
+                    "Value": "cpu2"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-005"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "cpu_usage_active",
+            "Dimensions": [
+                {
+                    "Name": "device_id",
+                    "Value": "device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-ec72xmzghneb4i7kv4zwakx6v4"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "PanoramaDeviceMetrics",
+            "MetricName": "DeviceActive",
+            "Dimensions": [
+                {
+                    "Name": "DeviceId",
+                    "Value": "device-d272xi3nlsngvtmkymqn7rcewi"
+                },
+                {
+                    "Name": "DeviceName",
+                    "Value": "OR-DOT-PILOT-001"
+                }
+            ]
+        }
+    ]
+}

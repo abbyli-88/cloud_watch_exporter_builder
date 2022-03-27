@@ -1,0 +1,242 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "elb-access-logging-dev-fargate"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-centralized-logging-bucket-ap-southeast-2-kjileapldy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-centralized-logging-bucket-ap-southeast-2-kjileapldy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-redshift-audit-logs-729234215193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-redshift-audit-logs-729234215193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "OneZoneIAStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-s3-access-log-729234215193-ap-southeast-2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-elb-access-logging-729234215193-obeeyiecud"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-uploadtarget"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-s3-access-log-729234215193-ap-southeast-2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-panorama-poc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-panorama-poc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "elb-access-logging-dev-fargate"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-microfrontend-applications"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-s3-access-log-729234215193-ap-southeast-2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dcs-elb-access-logging-729234215193-obeeyiecud"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-microfrontend-applications"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                },
+                {
+                    "Name": "BucketName",
+                    "Value": "dot-dev-uploadtarget"
+                }
+            ]
+        }
+    ]
+}

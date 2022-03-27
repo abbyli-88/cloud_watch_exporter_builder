@@ -1,0 +1,104 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "Connect.AuthError",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "PublishIn.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "HTTP"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "Unsubscribe.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "ListNamedShadowsForThing.Accepted",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "HTTP"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "GetThingShadow.Accepted",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "HTTP"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "Connect.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "PublishIn.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "PublishOut.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "Subscribe.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/IoT",
+            "MetricName": "Ping.Success",
+            "Dimensions": [
+                {
+                    "Name": "Protocol",
+                    "Value": "MQTT"
+                }
+            ]
+        }
+    ]
+}

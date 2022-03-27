@@ -1,0 +1,143 @@
+---
+nat_gateway_metrics:
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ActiveConnectionCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionAttemptCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionEstablishedCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ErrorPortAllocation
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: IdleTimeoutCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsDropCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+nat_gateway_metrics:
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ActiveConnectionCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionAttemptCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionEstablishedCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ErrorPortAllocation
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: IdleTimeoutCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsDropCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+

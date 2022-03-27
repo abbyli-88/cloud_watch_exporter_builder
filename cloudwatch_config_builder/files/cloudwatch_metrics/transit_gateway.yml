@@ -1,0 +1,83 @@
+---
+transit_gateway_metrics:
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+transit_gateway_metrics:
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+

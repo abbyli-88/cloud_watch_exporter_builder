@@ -1,0 +1,4084 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:169"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:192"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:192"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:192"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:192"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:192"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:188"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:188"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:188"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:188"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:188"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:189"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:189"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:189"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:189"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:189"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:190"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:190"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:190"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:190"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:190"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:179"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:191"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:191"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:191"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:191"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:191"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "UnreservedConcurrentExecutions",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:181"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:180"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:171"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:183"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:172"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:173"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:170"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:187"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:187"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:187"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:187"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:187"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:178"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:177"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:186"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:186"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:186"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:186"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:186"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:175"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:174"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:176"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:185"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:185"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:185"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:185"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:185"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.CheckAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.CheckAuthHandler:193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Duration",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.RefreshAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.RefreshAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.HttpHeadersHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.HttpHeadersHandler:184"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Errors",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "ConcurrentExecutions",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:182"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Throttles",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "us-east-1.ParseAuthHandler"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "us-east-1.ParseAuthHandler:182"
+                }
+            ]
+        }
+    ]
+}

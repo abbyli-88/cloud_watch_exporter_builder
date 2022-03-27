@@ -1,0 +1,3346 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkTransmitThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkReceiveThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BufferCacheHitRatio",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CommitLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "StorageNetworkThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "RDSToAuroraPostgreSQLReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "Deadlocks",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EngineUptime",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeLocalStorage",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.r6g.large"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "Role",
+                    "Value": "WRITER"
+                },
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BackupRetentionPeriodStorageUsed",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadCPU",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadNonCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeReadIOPs",
+            "Dimensions": [
+                {
+                    "Name": "DbClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                },
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeBytesUsed",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeBytesUsed",
+            "Dimensions": [
+                {
+                    "Name": "DbClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                },
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoad",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadNonCPU",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read-manual"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.4xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeWriteIOPs",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoad",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoad",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BackupRetentionPeriodStorageUsed",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TotalBackupStorageBilled",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TotalBackupStorageBilled",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeBytesUsed",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeWriteIOPs",
+            "Dimensions": [
+                {
+                    "Name": "DbClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                },
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeReadIOPs",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadNonCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicaLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeReadIOPs",
+            "Dimensions": [
+                {
+                    "Name": "DBClusterIdentifier",
+                    "Value": "dot-dev-aurora-cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "VolumeWriteIOPs",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "aurora-postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev-read1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicaLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.m5.xlarge"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "dot-dev"
+                }
+            ]
+        }
+    ]
+}

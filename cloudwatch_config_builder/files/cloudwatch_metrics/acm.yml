@@ -1,0 +1,13 @@
+---
+acm_metrics:
+- aws_namespace: AWS/CertificateManager
+  aws_metric_name: DaysToExpiry
+  aws_dimensions: [CertificateArn]
+  aws_statistics: []
+
+acm_metrics:
+- aws_namespace: AWS/CertificateManager
+  aws_metric_name: DaysToExpiry
+  aws_dimensions: [CertificateArn]
+  aws_statistics: []
+

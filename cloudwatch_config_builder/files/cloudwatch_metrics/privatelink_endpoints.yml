@@ -1,0 +1,53 @@
+---
+privatelink_endpoints_metrics:
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: ActiveConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: BytesProcessed
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: NewConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: PacketsDropped
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: RstPacketsReceived
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+privatelink_endpoints_metrics:
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: ActiveConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: BytesProcessed
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: NewConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: PacketsDropped
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: RstPacketsReceived
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+

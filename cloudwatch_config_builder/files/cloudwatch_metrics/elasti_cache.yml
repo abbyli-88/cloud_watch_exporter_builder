@@ -1,0 +1,493 @@
+---
+elasti_cache_metrics:
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ActiveDefragHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: AuthenticationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: BytesUsedForCache
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHitRate
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheMisses
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CommandAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrVolatileItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DB0AverageTTL
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsageCountedForEvictPercentage
+  aws_dimensions: [NodeGroupId, ReplicationGroupId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsagePercentage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: EngineCPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Evictions
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: IsMaster
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeysTracked
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MasterLinkHealthStatus
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MemoryFragmentationRatio
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthInAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthOutAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkConntrackAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkLinkLocalAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsPerSecondAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NewConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Reclaimed
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationBytes
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationLag
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SaveInProgress
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SwapUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+elasti_cache_metrics:
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ActiveDefragHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: AuthenticationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: BytesUsedForCache
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHitRate
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheMisses
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CommandAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrVolatileItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DB0AverageTTL
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsageCountedForEvictPercentage
+  aws_dimensions: [NodeGroupId, ReplicationGroupId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsagePercentage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: EngineCPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Evictions
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: IsMaster
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeysTracked
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MasterLinkHealthStatus
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MemoryFragmentationRatio
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthInAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthOutAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkConntrackAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkLinkLocalAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsPerSecondAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NewConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Reclaimed
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationBytes
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationLag
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SaveInProgress
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SwapUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+

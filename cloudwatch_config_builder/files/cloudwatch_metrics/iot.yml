@@ -1,0 +1,93 @@
+---
+iot_metrics:
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.AuthError
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: GetThingShadow.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: ListNamedShadowsForThing.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Ping.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishIn.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishOut.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Subscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Unsubscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+iot_metrics:
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.AuthError
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: GetThingShadow.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: ListNamedShadowsForThing.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Ping.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishIn.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishOut.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Subscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Unsubscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+

@@ -1,0 +1,1337 @@
+---
+application_elb_metrics:
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ActiveConnectionCount
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ClientTLSNegotiationErrorCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ConsumedLCUs
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: DesyncMitigationMode_NonCompliant_Request_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ELBAuthFailure
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ELBAuthLatency
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ELBAuthRefreshTokenSuccess
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ELBAuthSuccess
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ForwardedInvalidHeaderRequestCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_3XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_4XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_502_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_503_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_504_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_ELB_5XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_Target_2XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_Target_3XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTPCode_Target_4XX_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HTTP_Fixed_Response_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: HealthyHostCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: NewConnectionCount
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: ProcessedBytes
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: RequestCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: RequestCountPerTarget
+  aws_dimensions: [LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: RuleEvaluations
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: TargetConnectionErrorCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: TargetResponseTime
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+- aws_namespace: AWS/ApplicationELB
+  aws_metric_name: UnHealthyHostCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer, TargetGroup]
+  aws_statistics: []
+
+usage_metrics:
+- aws_namespace: AWS/Usage
+  aws_metric_name: CallCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Usage
+  aws_metric_name: ErrorCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Usage
+  aws_metric_name: ResourceCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Usage
+  aws_metric_name: ThrottleCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+panorama_metrics:
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: ApplicationErrors
+  aws_dimensions: [ApplicationInstanceId, ApplicationInstanceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: DeviceActive
+  aws_dimensions: [DeviceId, DeviceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_active
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_idle
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_total
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_used
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_total
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_used
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+
+network_elb_metrics:
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs_TCP
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: PeakPacketsPerSecond
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedPackets
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Client_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_ELB_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Target_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+logs_metrics:
+- aws_namespace: AWS/Logs
+  aws_metric_name: CallCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ErrorCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingBytes
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingLogEvents
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ThrottleCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+events_metrics:
+- aws_namespace: AWS/Events
+  aws_metric_name: Invocations
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: MatchedEvents
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Events
+  aws_metric_name: TriggeredRules
+  aws_dimensions: [RuleName]
+  aws_statistics: []
+
+ebs_metrics:
+- aws_namespace: AWS/EBS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeIdleTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeQueueLength
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalReadTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalWriteTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+transit_gateway_metrics:
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: BytesOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountBlackhole
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketDropCountNoRoute
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsIn
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+- aws_namespace: AWS/TransitGateway
+  aws_metric_name: PacketsOut
+  aws_dimensions: [TransitGateway, TransitGatewayAttachment]
+  aws_statistics: []
+
+acm_metrics:
+- aws_namespace: AWS/CertificateManager
+  aws_metric_name: DaysToExpiry
+  aws_dimensions: [CertificateArn]
+  aws_statistics: []
+
+nat_gateway_metrics:
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ActiveConnectionCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: BytesOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionAttemptCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ConnectionEstablishedCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: ErrorPortAllocation
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: IdleTimeoutCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsDropCount
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsInFromSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToDestination
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+- aws_namespace: AWS/NATGateway
+  aws_metric_name: PacketsOutToSource
+  aws_dimensions: [NatGatewayId]
+  aws_statistics: []
+
+ec2_metrics:
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditsCharged
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: MetadataNoToken
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkIn
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkOut
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_Instance
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_System
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+route53_resolver_metrics:
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointHealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointUnhealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: InboundQueryVolume
+  aws_dimensions: [EndpointId, RniId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryAggregateVolume
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryVolume
+  aws_dimensions: []
+  aws_statistics: []
+
+network_firewall_metrics:
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: DroppedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: PassedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: ReceivedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+elasti_cache_metrics:
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ActiveDefragHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: AuthenticationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: BytesUsedForCache
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHitRate
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheHits
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CacheMisses
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CommandAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: CurrVolatileItems
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DB0AverageTTL
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsageCountedForEvictPercentage
+  aws_dimensions: [NodeGroupId, ReplicationGroupId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: DatabaseMemoryUsagePercentage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: EngineCPUUtilization
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Evictions
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: GetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: IsMaster
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyAuthorizationFailures
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeyBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: KeysTracked
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MasterLinkHealthStatus
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: MemoryFragmentationRatio
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthInAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBandwidthOutAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkBytesOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkConntrackAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkLinkLocalAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NetworkPacketsPerSecondAllowanceExceeded
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: NewConnections
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: PubSubBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: Reclaimed
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationBytes
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: ReplicationLag
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SaveInProgress
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SetTypeCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmds
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: StringBasedCmdsLatency
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/ElastiCache
+  aws_metric_name: SwapUsage
+  aws_dimensions: [CacheClusterId, CacheNodeId]
+  aws_statistics: []
+
+s3_metrics:
+- aws_namespace: AWS/S3
+  aws_metric_name: BucketSizeBytes
+  aws_dimensions: [BucketName, StorageType]
+  aws_statistics: []
+
+- aws_namespace: AWS/S3
+  aws_metric_name: NumberOfObjects
+  aws_dimensions: [BucketName, StorageType]
+  aws_statistics: []
+
+rds_metrics:
+- aws_namespace: AWS/RDS
+  aws_metric_name: BackupRetentionPeriodStorageUsed
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BufferCacheHitRatio
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CheckpointLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoad
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadNonCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: Deadlocks
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DiskQueueDepth
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EngineUptime
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeLocalStorage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeStorageSpace
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: MaximumUsedTransactionIDs
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: OldestReplicationSlotLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: RDSToAuroraPostgreSQLReplicaLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicaLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicationSlotDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: SwapUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TotalBackupStorageBilled
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsGeneration
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeBytesUsed
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeReadIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeWriteIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+redshift_metrics:
+- aws_namespace: AWS/Redshift
+  aws_metric_name: AutoVacuumSpaceFreed
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CommitQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ConcurrencyScalingActiveClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: HealthStatus
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaintenanceMode
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaxConfiguredConcurrencyScalingClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NumExceededSchemaQuotas
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: PercentageDiskSpaceUsed
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryRuntimeBreakdown
+  aws_dimensions: [ClusterIdentifier, NodeID, stage]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: TotalTableCount
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, service class]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueWaitTime
+  aws_dimensions: [ClusterIdentifier, QueryPriority, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMRunningQueries
+  aws_dimensions: [ClusterIdentifier, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+lambda_metrics:
+- aws_namespace: AWS/Lambda
+  aws_metric_name: ConcurrentExecutions
+  aws_dimensions: [FunctionName, Resource]
+  aws_statistics: []
+
+- aws_namespace: AWS/Lambda
+  aws_metric_name: Duration
+  aws_dimensions: [FunctionName, Resource]
+  aws_statistics: []
+
+- aws_namespace: AWS/Lambda
+  aws_metric_name: Errors
+  aws_dimensions: [FunctionName, Resource]
+  aws_statistics: []
+
+- aws_namespace: AWS/Lambda
+  aws_metric_name: Invocations
+  aws_dimensions: [FunctionName, Resource]
+  aws_statistics: []
+
+- aws_namespace: AWS/Lambda
+  aws_metric_name: Throttles
+  aws_dimensions: [FunctionName, Resource]
+  aws_statistics: []
+
+- aws_namespace: AWS/Lambda
+  aws_metric_name: UnreservedConcurrentExecutions
+  aws_dimensions: []
+  aws_statistics: []
+
+snsredshiftna_metrics:
+- aws_namespace: AWS/SNS
+  aws_metric_name: NumberOfMessagesPublished
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+
+- aws_namespace: AWS/SNS
+  aws_metric_name: PublishSize
+  aws_dimensions: [TopicName]
+  aws_statistics: []
+
+privatelink_endpoints_metrics:
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: ActiveConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: BytesProcessed
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: NewConnections
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: PacketsDropped
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+- aws_namespace: AWS/PrivateLinkEndpoints
+  aws_metric_name: RstPacketsReceived
+  aws_dimensions: [Endpoint Type, Service Name, Subnet Id, VPC Endpoint Id, VPC Id]
+  aws_statistics: []
+
+iot_metrics:
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.AuthError
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Connect.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: GetThingShadow.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: ListNamedShadowsForThing.Accepted
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Ping.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishIn.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: PublishOut.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Subscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+
+- aws_namespace: AWS/IoT
+  aws_metric_name: Unsubscribe.Success
+  aws_dimensions: [Protocol]
+  aws_statistics: []
+

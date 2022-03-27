@@ -1,0 +1,24 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/SNS",
+            "MetricName": "PublishSize",
+            "Dimensions": [
+                {
+                    "Name": "TopicName",
+                    "Value": "DCS-RDS-EVENT-SUBSCRIPTION-729234215193"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/SNS",
+            "MetricName": "NumberOfMessagesPublished",
+            "Dimensions": [
+                {
+                    "Name": "TopicName",
+                    "Value": "DCS-RDS-EVENT-SUBSCRIPTION-729234215193"
+                }
+            ]
+        }
+    ]
+}

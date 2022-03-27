@@ -1,0 +1,2542 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthFailure",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_503_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_503_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_503_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_503_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ClientTLSNegotiationErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ForwardedInvalidHeaderRequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ForwardedInvalidHeaderRequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_502_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "NewConnectionCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "NewConnectionCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ClientTLSNegotiationErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ClientTLSNegotiationErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthLatency",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthLatency",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthLatency",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthFailure",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthFailure",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthRefreshTokenSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthRefreshTokenSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthRefreshTokenSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthLatency",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ELBAuthRefreshTokenSuccess",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_502_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_504_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_504_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_504_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_504_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetConnectionErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_502_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_502_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RuleEvaluations",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ConsumedLCUs",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ActiveConnectionCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RuleEvaluations",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ForwardedInvalidHeaderRequestCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ActiveConnectionCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_2XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "TargetResponseTime",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ConsumedLCUs",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ClientTLSNegotiationErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/fe-file-cache/aac6920d628a8ea1"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "RequestCountPerTarget",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_Target_3XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/shell-ui/64628fd60a8ad015"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "UnHealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HealthyHostCount",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/graphql/3db97d53e80fa4ec"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTPCode_ELB_4XX_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-alb/a828e71279a9b4e4"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApplicationELB",
+            "MetricName": "HTTP_Fixed_Response_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/dev-control-alb/616b651d7dc2f5dc"
+                }
+            ]
+        }
+    ]
+}

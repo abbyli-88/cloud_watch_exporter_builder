@@ -1,0 +1,328 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "ReceivedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "PassedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateful"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkFirewall",
+            "MetricName": "DroppedPackets",
+            "Dimensions": [
+                {
+                    "Name": "FirewallName",
+                    "Value": "dev-main"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                },
+                {
+                    "Name": "Engine",
+                    "Value": "Stateless"
+                }
+            ]
+        }
+    ]
+}

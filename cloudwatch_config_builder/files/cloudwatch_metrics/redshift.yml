@@ -1,0 +1,273 @@
+---
+redshift_metrics:
+- aws_namespace: AWS/Redshift
+  aws_metric_name: AutoVacuumSpaceFreed
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CommitQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ConcurrencyScalingActiveClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: HealthStatus
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaintenanceMode
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaxConfiguredConcurrencyScalingClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NumExceededSchemaQuotas
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: PercentageDiskSpaceUsed
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryRuntimeBreakdown
+  aws_dimensions: [ClusterIdentifier, NodeID, stage]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: TotalTableCount
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, service class]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueWaitTime
+  aws_dimensions: [ClusterIdentifier, QueryPriority, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMRunningQueries
+  aws_dimensions: [ClusterIdentifier, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+redshift_metrics:
+- aws_namespace: AWS/Redshift
+  aws_metric_name: AutoVacuumSpaceFreed
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: CommitQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ConcurrencyScalingActiveClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: HealthStatus
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaintenanceMode
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: MaxConfiguredConcurrencyScalingClusters
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: NumExceededSchemaQuotas
+  aws_dimensions: [ClusterIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: PercentageDiskSpaceUsed
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, latency]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: QueryRuntimeBreakdown
+  aws_dimensions: [ClusterIdentifier, NodeID, stage]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: TotalTableCount
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueriesCompletedPerSecond
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueryDuration
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueLength
+  aws_dimensions: [ClusterIdentifier, NodeID, QueueName, service class]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMQueueWaitTime
+  aws_dimensions: [ClusterIdentifier, QueryPriority, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WLMRunningQueries
+  aws_dimensions: [ClusterIdentifier, QueueName, wlmid]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteLatency
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+
+- aws_namespace: AWS/Redshift
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [ClusterIdentifier, NodeID]
+  aws_statistics: []
+

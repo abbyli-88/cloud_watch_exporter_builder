@@ -1,0 +1,196 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-03fc7a57e32f38353"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-01d3603853e31ea4f"
+                }
+            ]
+        }
+    ]
+}

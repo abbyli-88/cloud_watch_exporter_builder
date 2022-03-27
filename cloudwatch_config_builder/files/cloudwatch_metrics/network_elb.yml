@@ -1,0 +1,133 @@
+---
+network_elb_metrics:
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs_TCP
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: PeakPacketsPerSecond
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedPackets
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Client_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_ELB_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Target_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+network_elb_metrics:
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ActiveFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ConsumedLCUs_TCP
+  aws_dimensions: [LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: NewFlowCount_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: PeakPacketsPerSecond
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedBytes_TCP
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: ProcessedPackets
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Client_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_ELB_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkELB
+  aws_metric_name: TCP_Target_Reset_Count
+  aws_dimensions: [AvailabilityZone, LoadBalancer]
+  aws_statistics: []
+

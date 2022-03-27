@@ -1,0 +1,83 @@
+---
+panorama_metrics:
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: ApplicationErrors
+  aws_dimensions: [ApplicationInstanceId, ApplicationInstanceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: DeviceActive
+  aws_dimensions: [DeviceId, DeviceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_active
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_idle
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_total
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_used
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_total
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_used
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+
+panorama_metrics:
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: ApplicationErrors
+  aws_dimensions: [ApplicationInstanceId, ApplicationInstanceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: DeviceActive
+  aws_dimensions: [DeviceId, DeviceName]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_active
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: cpu_usage_idle
+  aws_dimensions: [cpu, device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_total
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: disk_used
+  aws_dimensions: [device, device_id, device_name, fstype, path]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_total
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+
+- aws_namespace: PanoramaDeviceMetrics
+  aws_metric_name: mem_used
+  aws_dimensions: [device_id, device_name]
+  aws_statistics: []
+

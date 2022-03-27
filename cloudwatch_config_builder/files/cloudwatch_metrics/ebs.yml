@@ -1,0 +1,93 @@
+---
+ebs_metrics:
+- aws_namespace: AWS/EBS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeIdleTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeQueueLength
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalReadTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalWriteTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+ebs_metrics:
+- aws_namespace: AWS/EBS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeIdleTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeQueueLength
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeReadOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalReadTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeTotalWriteTime
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteBytes
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EBS
+  aws_metric_name: VolumeWriteOps
+  aws_dimensions: [VolumeId]
+  aws_statistics: []
+

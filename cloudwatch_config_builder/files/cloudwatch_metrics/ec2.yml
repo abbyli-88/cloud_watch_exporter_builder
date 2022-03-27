@@ -1,0 +1,193 @@
+---
+ec2_metrics:
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditsCharged
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: MetadataNoToken
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkIn
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkOut
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_Instance
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_System
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+ec2_metrics:
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUCreditUsage
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditBalance
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUSurplusCreditsCharged
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSReadOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteBytes
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: EBSWriteOps
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: MetadataNoToken
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkIn
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkOut
+  aws_dimensions: [AutoScalingGroupName, ImageId, InstanceId, InstanceType]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsIn
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: NetworkPacketsOut
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_Instance
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+
+- aws_namespace: AWS/EC2
+  aws_metric_name: StatusCheckFailed_System
+  aws_dimensions: [AutoScalingGroupName, InstanceId]
+  aws_statistics: []
+

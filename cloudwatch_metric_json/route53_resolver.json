@@ -1,0 +1,79 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "InboundQueryVolume",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "InboundQueryVolume",
+            "Dimensions": [
+                {
+                    "Name": "RniId",
+                    "Value": "rni-ccbb29e395224b038"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "EndpointHealthyENICount",
+            "Dimensions": [
+                {
+                    "Name": "EndpointId",
+                    "Value": "rslvr-in-950da37df65543da8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "OutboundQueryVolume",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "InboundQueryVolume",
+            "Dimensions": [
+                {
+                    "Name": "RniId",
+                    "Value": "rni-2b258709639444e08"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "InboundQueryVolume",
+            "Dimensions": [
+                {
+                    "Name": "EndpointId",
+                    "Value": "rslvr-in-950da37df65543da8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "OutboundQueryAggregateVolume",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "InboundQueryVolume",
+            "Dimensions": [
+                {
+                    "Name": "RniId",
+                    "Value": "rni-90973ce112da45329"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Route53Resolver",
+            "MetricName": "EndpointUnhealthyENICount",
+            "Dimensions": [
+                {
+                    "Name": "EndpointId",
+                    "Value": "rslvr-in-950da37df65543da8"
+                }
+            ]
+        }
+    ]
+}

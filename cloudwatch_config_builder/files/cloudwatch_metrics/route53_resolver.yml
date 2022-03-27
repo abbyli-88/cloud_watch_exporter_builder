@@ -1,0 +1,53 @@
+---
+route53_resolver_metrics:
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointHealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointUnhealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: InboundQueryVolume
+  aws_dimensions: [EndpointId, RniId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryAggregateVolume
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryVolume
+  aws_dimensions: []
+  aws_statistics: []
+
+route53_resolver_metrics:
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointHealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: EndpointUnhealthyENICount
+  aws_dimensions: [EndpointId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: InboundQueryVolume
+  aws_dimensions: [EndpointId, RniId]
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryAggregateVolume
+  aws_dimensions: []
+  aws_statistics: []
+
+- aws_namespace: AWS/Route53Resolver
+  aws_metric_name: OutboundQueryVolume
+  aws_dimensions: []
+  aws_statistics: []
+

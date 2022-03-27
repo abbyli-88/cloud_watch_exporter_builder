@@ -1,0 +1,292 @@
+{{ ansible_managed | comment }}
+---
+region: {{ "ap-southeast-2" }}
+
+# s3 metrics
+{% for metric in s3_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+# transit_gateway_metrics
+{% for metric in transit_gateway_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+# acm_metrics
+{% for metric in acm_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#application_elb_metrics
+{% for metric in application_elb_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#ebs_metrics
+{% for metric in ebs_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#ec2_metrics
+{% for metric in ec2_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#elasti_cache_metrics
+{% for metric in elasti_cache_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#events_metrics
+{% for metric in events_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#iot_metrics
+{% for metric in iot_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#lambda_metrics
+{% for metric in lambda_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#logs_metrics
+{% for metric in logs_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#nat_gateway_metrics
+{% for metric in nat_gateway_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#network_elb_metrics
+{% for metric in network_elb_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#network_firewall_metrics
+{% for metric in network_firewall_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#panorama_metrics
+{% for metric in panorama_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#privatelink_endpoints_metrics
+{% for metric in privatelink_endpoints_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+
+
+#rds_metrics
+{% for metric in rds_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#redshift_metrics
+{% for metric in redshift_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#route53_resolver_metrics
+{% for metric in route53_resolver_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#snsredshiftna_metrics
+{% for metric in snsredshiftna_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#transit_gateway_metrics
+{% for metric in transit_gateway_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+
+#usage_metrics
+{% for metric in usage_metrics %}
+- aws_namespace: {{ metric.aws_namespace }}
+  aws_metric_name: {{ metric.aws_metric_name }}
+  aws_dimensions: {{ metric.aws_dimensions | regex_replace("u") | regex_replace("'") }}
+{% if metric.aws_statistics != [] %}
+  aws_statistics: {{ metric.aws_statistics | regex_replace("u'") | regex_replace("'" ) }}
+{% endif %}
+{% if metric.aws_statistics == [] %}
+  aws_statistics: [{{"Sum, SampleCount, Minimum, Maximum, Average"}}]
+{% endif %}
+{% endfor %}
+

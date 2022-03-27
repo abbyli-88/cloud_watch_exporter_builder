@@ -1,0 +1,1022 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ConsumedLCUs",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ConsumedLCUs",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ConsumedLCUs_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount_TCP",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedPackets",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_ELB_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ActiveFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "ProcessedBytes",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Client_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2b"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "NewFlowCount",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-nlb/62fd876e03d039b7"
+                },
+                {
+                    "Name": "AvailabilityZone",
+                    "Value": "ap-southeast-2c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NetworkELB",
+            "MetricName": "TCP_Target_Reset_Count",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "net/dev-control-nlb/5622c0244c2fcf7d"
+                }
+            ]
+        }
+    ]
+}

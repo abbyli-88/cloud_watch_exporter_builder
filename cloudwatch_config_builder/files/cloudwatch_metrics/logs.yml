@@ -1,0 +1,53 @@
+---
+logs_metrics:
+- aws_namespace: AWS/Logs
+  aws_metric_name: CallCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ErrorCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingBytes
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingLogEvents
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ThrottleCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+logs_metrics:
+- aws_namespace: AWS/Logs
+  aws_metric_name: CallCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ErrorCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingBytes
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: IncomingLogEvents
+  aws_dimensions: [LogGroupName]
+  aws_statistics: []
+
+- aws_namespace: AWS/Logs
+  aws_metric_name: ThrottleCount
+  aws_dimensions: [Class, Resource, Service, Type]
+  aws_statistics: []
+

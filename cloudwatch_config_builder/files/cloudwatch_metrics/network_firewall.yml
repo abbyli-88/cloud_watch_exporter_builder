@@ -1,0 +1,33 @@
+---
+network_firewall_metrics:
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: DroppedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: PassedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: ReceivedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+network_firewall_metrics:
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: DroppedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: PassedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+
+- aws_namespace: AWS/NetworkFirewall
+  aws_metric_name: ReceivedPackets
+  aws_dimensions: [AvailabilityZone, Engine, FirewallName]
+  aws_statistics: []
+

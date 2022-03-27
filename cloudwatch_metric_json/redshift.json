@@ -1,0 +1,1768 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingDelete"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingUpdate"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingInsert"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingUpdate"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "PercentageDiskSpaceUsed",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Service class for super user"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingCopy"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingCtas"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingCopy"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingUnload"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingUnload"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryWaiting"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryWaiting"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "14"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Short query queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "short"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingCtas"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "AutoVacuumSpaceFreed",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "HealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Short query queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "14"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "14"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "14"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingDelete"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingInsert"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryPlanning"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Service class for super user"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "Lowest"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "medium"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "long"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "Critical"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "short"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "long"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CommitQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NumExceededSchemaQuotas",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingRead"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "14"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "14"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "PercentageDiskSpaceUsed",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "short"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "5"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "MaxConfiguredConcurrencyScalingClusters",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "medium"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "PercentageDiskSpaceUsed",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "Low"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryCommit"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "Highest"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "104"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "100"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Short query queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryExecutingRead"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "long"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "MaintenanceMode",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "medium"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "101"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "100"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "HealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "103"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "105"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "High"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryPriority",
+                    "Value": "Normal"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryCommit"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "14"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "short"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Short query queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueryRuntimeBreakdown",
+            "Dimensions": [
+                {
+                    "Name": "stage",
+                    "Value": "QueryPlanning"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "medium"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "ConcurrencyScalingActiveClusters",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CommitQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "5"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Short query queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMRunningQueries",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Service class for super user"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "106"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-0"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "service class",
+                    "Value": "5"
+                },
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "107"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueWaitTime",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "102"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "TotalTableCount",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "MaintenanceMode",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Leader"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "QueriesCompletedPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "latency",
+                    "Value": "long"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueryDuration",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "wlmid",
+                    "Value": "100"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "NodeID",
+                    "Value": "Compute-1"
+                },
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "WLMQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                },
+                {
+                    "Name": "QueueName",
+                    "Value": "Default queue"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Redshift",
+            "MetricName": "TotalTableCount",
+            "Dimensions": [
+                {
+                    "Name": "ClusterIdentifier",
+                    "Value": "redshift-dev-1"
+                }
+            ]
+        }
+    ]
+}

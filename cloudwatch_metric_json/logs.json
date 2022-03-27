@@ -1,0 +1,1301 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLogStreams"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogStream"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-3s74kzjj5xr7pvurbim77yeezm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-3s74kzjj5xr7pvurbim77yeezm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutResourcePolicy"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeResourcePolicies"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-pk72xpwd4nbbjyvdudmpfkk4k4/applications/applicationInstance-2c74kxgk5d7syebrs6yr26slxa"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-pk72xpwd4nbbjyvdudmpfkk4k4/applications/applicationInstance-2c74kxgk5d7syebrs6yr26slxa"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-5s74k6jtjgicgsxj673mdwemru"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-5s74k6jtjgicgsxj673mdwemru"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-kk74mxner2lvlurvv4zmg4vzqq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-kk74mxner2lvlurvv4zmg4vzqq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-qc74mxpxfxx3rao4rrseuf6jwm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-qc74mxpxfxx3rao4rrseuf6jwm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "FilterLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-zc74lfkmqnpxzvpiib36jtjjkq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-zc74lfkmqnpxzvpiib36jtjjkq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-hc74lbr2iwun3h7tyxffvraogy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-hc74lbr2iwun3h7tyxffvraogy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-dk74low7g6lcuyp3awlb6e344a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-dk74low7g6lcuyp3awlb6e344a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-ec74lmbzldnqh2eh65godr2tdq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-ec74lmbzldnqh2eh65godr2tdq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-n274lh3wpnfoevit3dr2554izq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-n274lh3wpnfoevit3dr2554izq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-xk74lr7ewzpgdpvse6ee5jnfbq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-xk74lr7ewzpgdpvse6ee5jnfbq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4/applications/applicationInstance-ek74lunnfcqhu4vkgcnu2fig2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4/applications/applicationInstance-ek74lunnfcqhu4vkgcnu2fig2a"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-ic74lrykvdyg6bxvy3saneph74"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-vc72xodx2igxz3ir3gfic2i6lm/applications/applicationInstance-ic74lrykvdyg6bxvy3saneph74"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gk743repcoeavvammqpta6awrm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gk743repcoeavvammqpta6awrm"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4/applications/applicationInstance-zc743t6zw227fawuz53c7wxrza"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4/applications/applicationInstance-zc743t6zw227fawuz53c7wxrza"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-us743ubkiamvfbq5ofu5hkkqee"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-us743ubkiamvfbq5ofu5hkkqee"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-7k743t6nc4xgifikiegw2occvu"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-7k743t6nc4xgifikiegw2occvu"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gs743raxusz6fkpegfkzis2tga"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gs743raxusz6fkpegfkzis2tga"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/eks/dev/cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gc74qtgj7qgy3e5zazcvf24vee"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-gc74qtgj7qgy3e5zazcvf24vee"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-ls74qv6fdpsczo7xnd5a3xb4ia"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-ls74qv6fdpsczo7xnd5a3xb4ia"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-yc74qniobdpfunfwo5yqdotlgy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy/applications/applicationInstance-yc74qniobdpfunfwo5yqdotlgy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-fc74qbdoznkkql4btn5ao66pmy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-d272xi3nlsngvtmkymqn7rcewi/applications/applicationInstance-fc74qbdoznkkql4btn5ao66pmy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogStream"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-n272xlntaftqsfbkplwors6ljy"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLogStreams"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "route53-cpap-test"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ThrottleCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "route53-cpap-test"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-ec72xmzghneb4i7kv4zwakx6v4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-p272xrfmlud6on3mlwunvaedva"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/rds/instance/dot-dev-read1/postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeMetricFilters"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/rds/instance/dot-dev/postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/vpc-flow-log/vpc-0f5f857d3edfd3fa8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLogGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/rds/instance/dot-dev-read1/postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/vpc-flow-log/vpc-0f5f857d3edfd3fa8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTagsLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "fargate-cloudwatch"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/eks/dev/cluster"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-pk72xpwd4nbbjyvdudmpfkk4k4"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/panorama/devices/device-dc74qdmccjvdj6jfvikzacnoyq"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ThrottleCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "StartQuery"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "FilterLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "fargate-cloudwatch"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetLogGroupFields"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ThrottleCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetQueryResults"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetQueryResults"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ThrottleCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetQueryResults"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "StartQuery"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/rds/instance/dot-dev/postgresql"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTagsLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        }
+    ]
+}

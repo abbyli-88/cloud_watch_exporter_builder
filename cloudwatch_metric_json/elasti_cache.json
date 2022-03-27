@@ -1,0 +1,5409 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHitRate",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHitRate",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmdsLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHitRate",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+            "Dimensions": [
+                {
+                    "Name": "NodeGroupId",
+                    "Value": "0001"
+                },
+                {
+                    "Name": "ReplicationGroupId",
+                    "Value": "dev-elasticache-data"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+            "Dimensions": [
+                {
+                    "Name": "ReplicationGroupId",
+                    "Value": "dev-elasticache-data"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmds",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHitRate",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHitRate",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "GetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ActiveDefragHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NewConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CommandAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+            "Dimensions": [
+                {
+                    "Name": "NodeGroupId",
+                    "Value": "0001"
+                },
+                {
+                    "Name": "ReplicationGroupId",
+                    "Value": "dev-elasticache-core"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "EngineCPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmds",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "BytesUsedForCache",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MemoryFragmentationRatio",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthInAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Reclaimed",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "MasterLinkHealthStatus",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsagePercentage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeyAuthorizationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DB0AverageTTL",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrVolatileItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "IsMaster",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "StringBasedCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-003"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrConnections",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkLinkLocalAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheHits",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CurrItems",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationBytes",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SetTypeCmds",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "CacheMisses",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesIn",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+            "Dimensions": [
+                {
+                    "Name": "ReplicationGroupId",
+                    "Value": "dev-elasticache-core"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "ReplicationLag",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "SaveInProgress",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkConntrackAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsPerSecondAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "AuthenticationFailures",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "KeysTracked",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "PubSubBasedCmdsLatency",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBytesOut",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "Evictions",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-core-001"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ElastiCache",
+            "MetricName": "NetworkBandwidthOutAllowanceExceeded",
+            "Dimensions": [
+                {
+                    "Name": "CacheClusterId",
+                    "Value": "dev-elasticache-data-002"
+                },
+                {
+                    "Name": "CacheNodeId",
+                    "Value": "0001"
+                }
+            ]
+        }
+    ]
+}

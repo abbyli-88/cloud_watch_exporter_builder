@@ -1,0 +1,59 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "TriggeredRules",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "deloittecloud-events"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "Invocations",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "TriggeredRules",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "TriggeredRules",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "deloittecloud-events-extended1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "deloittecloud-events-extended1"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "MatchedEvents",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "deloittecloud-events"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/CertificateManager",
+            "MetricName": "DaysToExpiry",
+            "Dimensions": [
+                {
+                    "Name": "CertificateArn",
+                    "Value": "arn:aws:acm:ap-southeast-2:729234215193:certificate/e304e7b9-aee1-462c-a97b-f5924f31c3ec"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/CertificateManager",
+            "MetricName": "DaysToExpiry",
+            "Dimensions": [
+                {
+                    "Name": "CertificateArn",
+                    "Value": "arn:aws:acm:ap-southeast-2:729234215193:certificate/5aff980c-1ac7-4619-a13a-acee6ba97906"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/CertificateManager",
+            "MetricName": "DaysToExpiry",
+            "Dimensions": [
+                {
+                    "Name": "CertificateArn",
+                    "Value": "arn:aws:acm:ap-southeast-2:729234215193:certificate/23b48dad-ff0c-4ad1-aa06-e450d0c58a10"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/CertificateManager",
+            "MetricName": "DaysToExpiry",
+            "Dimensions": [
+                {
+                    "Name": "CertificateArn",
+                    "Value": "arn:aws:acm:ap-southeast-2:729234215193:certificate/3fc5bd07-51f5-4727-9a9b-ac29e3f40400"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/CertificateManager",
+            "MetricName": "DaysToExpiry",
+            "Dimensions": [
+                {
+                    "Name": "CertificateArn",
+                    "Value": "arn:aws:acm:ap-southeast-2:729234215193:certificate/5b7ceefc-bc15-42de-a1ae-7b216eec9173"
+                }
+            ]
+        }
+    ]
+}

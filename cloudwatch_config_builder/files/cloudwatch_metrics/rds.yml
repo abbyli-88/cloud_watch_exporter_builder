@@ -1,0 +1,433 @@
+---
+rds_metrics:
+- aws_namespace: AWS/RDS
+  aws_metric_name: BackupRetentionPeriodStorageUsed
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BufferCacheHitRatio
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CheckpointLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoad
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadNonCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: Deadlocks
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DiskQueueDepth
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EngineUptime
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeLocalStorage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeStorageSpace
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: MaximumUsedTransactionIDs
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: OldestReplicationSlotLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: RDSToAuroraPostgreSQLReplicaLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicaLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicationSlotDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: SwapUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TotalBackupStorageBilled
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsGeneration
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeBytesUsed
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeReadIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeWriteIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+rds_metrics:
+- aws_namespace: AWS/RDS
+  aws_metric_name: BackupRetentionPeriodStorageUsed
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BufferCacheHitRatio
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: BurstBalance
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CPUUtilization
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CheckpointLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: CommitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoad
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DBLoadNonCPU
+  aws_dimensions: [DBInstanceIdentifier]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DatabaseConnections
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: Deadlocks
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: DiskQueueDepth
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSByteBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EBSIOBalance%
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: EngineUptime
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeLocalStorage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeStorageSpace
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: FreeableMemory
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: MaximumUsedTransactionIDs
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: NetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: OldestReplicationSlotLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: RDSToAuroraPostgreSQLReplicaLag
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReadThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicaLag
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: ReplicationSlotDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkReceiveThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: StorageNetworkTransmitThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: SwapUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TotalBackupStorageBilled
+  aws_dimensions: [DBClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsDiskUsage
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: TransactionLogsGeneration
+  aws_dimensions: [DBInstanceIdentifier, DatabaseClass, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeBytesUsed
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeReadIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: VolumeWriteIOPs
+  aws_dimensions: [DBClusterIdentifier, DbClusterIdentifier, EngineName]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteIOPS
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteLatency
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
+- aws_namespace: AWS/RDS
+  aws_metric_name: WriteThroughput
+  aws_dimensions: [DBClusterIdentifier, DBInstanceIdentifier, DatabaseClass, EngineName, Role]
+  aws_statistics: []
+
